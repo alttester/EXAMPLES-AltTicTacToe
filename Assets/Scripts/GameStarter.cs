@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameStarter : MonoBehaviour
 {
-    public static void StartGame()
+    public void StartGame()
     {
         SceneManager.LoadScene("PlayScene");
     }
