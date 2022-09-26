@@ -1,0 +1,3 @@
+[submodule "Assets/AltTester"]
+	path = Assets/AltTester
+	url = git@gitlab.com:altom/altunity/altunitytester.git
