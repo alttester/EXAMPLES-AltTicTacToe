@@ -71,5 +71,11 @@ public class GameController : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
+
 }
 
